@@ -20,7 +20,8 @@
     "react-scripts": "5.0.1",
     "sort-by": "^1.2.0",
     "typescript": "^4.9.4",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "json5": ">=2.2.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -45,6 +46,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "json5": ">=2.2.2"
   },
   "proxy": "http://localhost:8080"
 }
