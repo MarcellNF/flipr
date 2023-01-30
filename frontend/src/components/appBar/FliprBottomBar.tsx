@@ -6,6 +6,7 @@ import IconButton from '@mui/material/IconButton';
 import Fab from '@mui/material/Fab';
 import MenuIcon from '@mui/icons-material/Menu';
 import AddIcon from '@mui/icons-material/Add';
+import {Tooltip} from "@mui/material";
 
 const StyledFab = styled(Fab)({
     position: 'absolute',
@@ -20,12 +21,16 @@ export default function FliprBottomBar() {
     return (
         <AppBar position="fixed" color="primary" sx={{top: 'auto', bottom: 0}}>
             <Toolbar>
-                <IconButton color="inherit" aria-label="open drawer">
-                    <MenuIcon/>
-                </IconButton>
-                <StyledFab color="secondary" aria-label="add">
-                    <AddIcon/>
-                </StyledFab>
+                <Tooltip title="Coming soon" arrow>
+                    <IconButton color="inherit" aria-label="open drawer">
+                        <MenuIcon/>
+                    </IconButton>
+                </Tooltip>
+                <Tooltip title="Coming soon" arrow>
+                    <StyledFab color="secondary" aria-label="add">
+                        <AddIcon/>
+                    </StyledFab>
+                </Tooltip>
             </Toolbar>
         </AppBar>
     );
