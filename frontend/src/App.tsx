@@ -17,6 +17,7 @@ export default function App() {
 
     return (
         <BrowserRouter>
+            <p>Hallo Docker und Azure!</p>
             <FliprTopBar register={saveUser} logout={logout} login={login} username={username} isAuthenticated={isAuthenticated}/>
             <Routes>
                 <Route path={"/"}
