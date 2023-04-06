@@ -22,7 +22,7 @@ export default function FliprBottomBar() {
         <AppBar position="fixed" color="primary" sx={{top: 'auto', bottom: 0}}>
             <Toolbar>
                 <Tooltip title="Coming soon" arrow>
-                    <IconButton color="inherit" aria-label="open drawer">
+                    <IconButton color="inherit" aria-label="ope drawer">
                         <MenuIcon/>
                     </IconButton>
                 </Tooltip>
